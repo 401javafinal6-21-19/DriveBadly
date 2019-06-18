@@ -1,38 +1,42 @@
-(function(window, document, drawModule){
-  var btn = document.getElementById('btn');
-  btn.addEventListener('click', function(){ 
-    drawModule.init();
-  })
+var drawModule = require('./draw.js')
 
-  document.onkeydown = function(event){
-    keyCode = window.event.keyCode;
-    keyCode = event.keyCode;
+  (function (window, document, drawModule) {
+    var btn = document.getElementById('btn');
+    btn.addEventListener('click', function () {
+      drawModule.init();
+    })
 
-    switch(keyCode){
-      case 37:
-      if(direction != 'right'){
-        direction = 'left';
+    document.onkeydown = function (event) {
+      keyCode = window.event.keyCode;
+      keyCode = event.keyCode;
+
+      switch (keyCode) {
+        case 37:
+          if (direction != 'right') {
+            direction = 'left';
+          }
+          break;
+
+        case 39:
+          if (direction != 'left') {
+            direction = 'right';
+          }
+          break;
+
+        case 38:
+          if (direction != 'down') {
+            direction = 'up';
+          }
+          break;
+
+        case 40:
+          if (direction != 'up') {
+            direction = 'down';
+          }
+          break;
       }
-      break;
 
-      case 39:
-      if(direction != 'left'){
-        direction = 'right';
-      }
-      break;
-
-      case 38:
-      if(direction != 'down'){
-        direction = 'up';
-      }
-      break;
-
-      case 40:
-      if(direction != 'up'){
-        direction = 'down';
-      }
-      break;
     }
-  
-  }
-})(window, document, drawModule);
+  })(window, document, drawModule);
+
+module.exports = {};

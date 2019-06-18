@@ -119,3 +119,5 @@ var drawModule = (function () {
     init: init
   };
 }());
+
+module.exports = drawModule;
