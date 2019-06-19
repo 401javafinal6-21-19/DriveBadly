@@ -3,7 +3,7 @@ var testSnake = [
   {x: 1, y: 2}, 
   {x: 2, y: 2}
 ];
-testSnake.length = 7;
+testSnake.length = 2;
 
 function testCollision() {
   var x = 1;
@@ -11,13 +11,19 @@ function testCollision() {
   var z = 2;
   var a = 2;
   //unhappy
-  if (!checkCollision(testSnake.x, testSnake.y, testSnake)) {
-    throw new Error("Collision happened")
+  if (drawModule.checkCollision(x, y, testSnake)) {
+    throw new Error("Collision detected at {1,1}, wrong!");
+  } else {
+    console.log("Collision did not happen at {1,1}, correct!");
   }
   //happy
-  if (checkCollision(z, a, testSnake)) {
-    console.log("Collision avoided")
+  if (drawModule.checkCollision(z, a, testSnake)) {
+    console.log("Collision detected at {2,2}, correct!");
+  } else {
+    throw new Error("Collision did not happen at {2,2}, wrong!");
   }
 }
+
+function test
 
 testCollision();
