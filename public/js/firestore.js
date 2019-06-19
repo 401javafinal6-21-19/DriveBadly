@@ -13,6 +13,7 @@ firebase.initializeApp(firebaseConfig);
 
 var db = firebase.firestore();
 
+// writing to Cloud Firestore database
 db.collection("driving").doc("snake")
     .onSnapshot(function (doc) {
         console.log("Current data: ", doc.data().direction);

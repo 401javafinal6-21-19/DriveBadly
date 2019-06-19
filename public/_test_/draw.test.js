@@ -12,6 +12,7 @@ function setupSnake() {
     direction = "up";
 }
 
+// collision test
 function testCollision() {
   setupSnake()
   var x = 1;
@@ -34,6 +35,7 @@ function testCollision() {
   }
 }
 
+// snake movement test
 function testSnakeMove() {
   setupSnake();
   let expectedOutput = [  {x: 1, y: 3},
@@ -48,7 +50,7 @@ function testSnakeMove() {
   }
 }
 
-
+// comparing coordinates of snake
 function compareSnakeCoordinates(a, b){
   if(a.length !== b.length){
     return false;

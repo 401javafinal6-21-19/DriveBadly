@@ -1,3 +1,4 @@
+// event listeners for button and key presses
 (function (window, document, drawModule) {
   var btn = document.getElementById('btn');
   btn.addEventListener('click', function () {

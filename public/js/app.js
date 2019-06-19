@@ -1,5 +1,5 @@
 
-
+// take in key presses, change direction of snake
 var getDirection = function (keyCode, direction) {
   switch (keyCode) {
     case 37:
@@ -30,4 +30,4 @@ var getDirection = function (keyCode, direction) {
         return direction
       }
   }
-}
+};
