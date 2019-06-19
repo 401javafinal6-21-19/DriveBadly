@@ -1,4 +1,5 @@
 'use strict';
+// button press tests
 function testLeftButtonPress () {
     if (getDirection (37) != 'left', direction ){
         throw new Error("left failed");

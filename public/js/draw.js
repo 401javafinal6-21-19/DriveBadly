@@ -1,5 +1,5 @@
-// resource: https://github.com/Mariacristina88/Snake-game
 
+// draw snake, food, score
 var drawModule = (function () {
   var bodySnake = function (x, y) {
     context.fillStyle = 'yellow';
@@ -7,19 +7,19 @@ var drawModule = (function () {
 
     context.strokeStyle = 'blue';
     context.strokeRect(x * snakeSize, y * snakeSize, snakeSize, snakeSize);
-  }
+  };
   var apple = function (x, y) {
     context.fillStyle = 'light-green';
     context.fillRect(x * snakeSize, y * snakeSize, snakeSize, snakeSize);
 
     context.fillStyle = 'green';
     context.fillRect(x * snakeSize + 1, y * snakeSize + 1, snakeSize - 2, snakeSize - 2);
-  }
+  };
   var scoreText = function () {
     var score_text = "score" + score;
     context.fillStyle = 'maroon';
     context.fillText(score_text, 145, height - 5);
-  }
+  };
   var drawSnake = function () {
     var length = 5;
     snake = [];
@@ -29,7 +29,8 @@ var drawModule = (function () {
         y: 30
       });
     }
-  }
+  };
+  // draw canvas
   var paint = function () {
     context.fillStyle = 'lightgray';
     context.fillRect(0, 0, width, height);
@@ -71,7 +72,7 @@ var drawModule = (function () {
       var tail = {
         x: snakex,
         y: snakey
-      }
+      };
       score++;
       createFood();
     } else {
@@ -85,12 +86,13 @@ var drawModule = (function () {
     }
     apple(food.x, food.y);
     scoreText();
-  }
+  };
+  // create food item in random location
   var createFood = function () {
     food = {
       x: Math.floor((Math.random() * 30) + 1),
       y: Math.floor((Math.random() * 30) + 1)
-    }
+    };
     for (var i = 0; i > snake.length; i++) {
       var snakex = snake[i].x;
       var snakey = snake[i].y;
@@ -99,7 +101,7 @@ var drawModule = (function () {
         food.y = Math.floor((Math.random() * 30) + 1);
       }
     }
-  }
+  };
   var checkCollision = function (x, y, array) {
     for (var i = 0; i < array.length; i++) {
       if (array[i].x === x && array[i].y === y) {
@@ -108,16 +110,16 @@ var drawModule = (function () {
       }
     }
     return false;
-  }
+  };
+  // init new game with snake moving right
   var init = function () {
     direction = 'right';
     drawSnake();
     createFood();
-//    gameLoop = setInterval(paint, 80);
-  }
+  };
   var start = function() {
     gameLoop = setInterval(paint, 80);
-  }
+  };
   return {
     init: init,
     checkCollision: checkCollision,

@@ -1,4 +1,6 @@
-var board = document.getElementById('board')
+//global variables
+
+var board = document.getElementById('board');
 var context = board.getContext('2d');
 
 var width = 400;
