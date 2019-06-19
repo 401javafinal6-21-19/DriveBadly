@@ -47,7 +47,7 @@ function testSnakeMove() {
   }
 }
 
-<<<<<<< HEAD
+
 function compareSnakeCoordinates(a, b){
   if(a.length !== b.length){
     return false;
@@ -63,7 +63,4 @@ function compareSnakeCoordinates(a, b){
 
 testSnakeMove();
 testCollision();
-=======
-testCollision();
 
->>>>>>> 667d6112210697f1a04737139e7ab4c18d687ffd
