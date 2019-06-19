@@ -117,6 +117,13 @@ var drawModule = (function () {
     gameLoop = setInterval(paint, 80);
   }
   return {
-    init: init
+    init: init,
+    checkCollision: checkCollision,
+    createFood: createFood,
+    paint: paint,
+    scoreText: scoreText,
+    drawSnake: drawSnake,
+    bodySnake: bodySnake,
+    apple: apple
   };
 }());
