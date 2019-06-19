@@ -3,17 +3,17 @@ Java 401d3 final project backup snake game for [RC car](https://github.com/401ja
 
 This part of our Java final project used HTML5 Canvas and JavaScript to build a snake game. It listens to Cloud Firebase Firestore to make controlling from our [Android App](https://github.com/401javafinal6-21-19/Car-Driver) possible. 
 
-Project includes an HTML [testing page](public\_test_\test.html).
+Project includes an HTML testing page in our [test folder](public\_test_).
 
 ## Twitch Commands
 
 |Command | Result|
 |:--------:|:-------:|
-|!about| Introduces TwitchBot and available commands|
-|!up|Moves Snake Up|
-|!down|Moves Snake Down|
-|!left|Moves Snake Left|
-|!right|Moves Snake Right|
+|`!about`| Introduces TwitchBot and available commands|
+|`!up`|Moves Snake Up|
+|`!down`|Moves Snake Down|
+|`!left`|Moves Snake Left|
+|`!right`|Moves Snake Right|
 
 ## Snake Game Features
 1. **Donut implementation** - when the snake moves off one side it reappears on the opposing side. 
