@@ -3,7 +3,7 @@ Java 401d3 final project backup snake game for [RC car](https://github.com/401ja
 
 This part of our Java final project used HTML5 Canvas and JavaScript to build a snake game. It listens to Cloud Firebase Firestore to make controlling from our [Android App](https://github.com/401javafinal6-21-19/Car-Driver) possible. 
 
-Project includes an HTML testing page in our [test folder](public\_test_).
+Project includes an HTML testing page in our [test folder](public/_test_/test.html).
 
 ## Twitch Commands
 
