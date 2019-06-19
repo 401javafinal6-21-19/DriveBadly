@@ -19,10 +19,12 @@ function testCollision() {
   var z = 2;
   var a = 2;
   //unhappy
+
   if (drawModule.checkCollision(x, y, snake)) {
     throw new Error("Collision detected at {1,1}, wrong!");
   } else {
     console.log("Collision did not happen at {1,1}, correct!");
+
   }
   //happy
   if (drawModule.checkCollision(z, a, snake)) {
@@ -45,6 +47,7 @@ function testSnakeMove() {
   }
 }
 
+<<<<<<< HEAD
 function compareSnakeCoordinates(a, b){
   if(a.length !== b.length){
     return false;
@@ -60,3 +63,7 @@ function compareSnakeCoordinates(a, b){
 
 testSnakeMove();
 testCollision();
+=======
+testCollision();
+
+>>>>>>> 667d6112210697f1a04737139e7ab4c18d687ffd
