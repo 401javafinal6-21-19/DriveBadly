@@ -114,6 +114,9 @@ var drawModule = (function () {
     direction = 'right';
     drawSnake();
     createFood();
+//    gameLoop = setInterval(paint, 80);
+  }
+  var start = function() {
     gameLoop = setInterval(paint, 80);
   }
   return {
@@ -124,6 +127,7 @@ var drawModule = (function () {
     scoreText: scoreText,
     drawSnake: drawSnake,
     bodySnake: bodySnake,
-    apple: apple
+    apple: apple,
+    start: start
   };
 }());

@@ -1,15 +1,3 @@
-(function (window, document, drawModule) {
-  var btn = document.getElementById('btn');
-  btn.addEventListener('click', function () {
-    drawModule.init();
-  })
-
-  document.onkeydown = function (event) {
-    keyCode = window.event.keyCode;
-    keyCode = event.keyCode;
-    direction = getDirection(keyCode, direction);
-  }
-})(window, document, drawModule);
 
 
 var getDirection = function (keyCode, direction) {
