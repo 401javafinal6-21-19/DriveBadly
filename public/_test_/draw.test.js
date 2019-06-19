@@ -35,6 +35,7 @@ function testCollision() {
 }
 
 function testSnakeMove() {
+  setupSnake();
   let expectedOutput = [  {x: 1, y: 3},
                           {x: 1, y: 2},
                           {x: 2, y: 2}];
