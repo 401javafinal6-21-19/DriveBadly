@@ -11,7 +11,7 @@ function testCollision() {
   var z = 2;
   var a = 2;
   //unhappy
-  if (!checkCollision(testSnake.x, testSnake.y, testSnake)) {
+  if (!drawModule.checkCollision(testSnake.x, testSnake.y, testSnake)) {
     throw new Error("Collision happened")
   }
   //happy
@@ -21,3 +21,4 @@ function testCollision() {
 }
 
 testCollision();
+
