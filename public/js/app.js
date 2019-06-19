@@ -1,38 +1,33 @@
-(function(window, document, drawModule){
-  var btn = document.getElementById('btn');
-  btn.addEventListener('click', function(){ 
-    drawModule.init();
-  })
 
-  document.onkeydown = function(event){
-    keyCode = window.event.keyCode;
-    keyCode = event.keyCode;
 
-    switch(keyCode){
-      case 37:
-      if(direction != 'right'){
-        direction = 'left';
+var getDirection = function (keyCode, direction) {
+  switch (keyCode) {
+    case 37:
+      if (direction != 'right') {
+        return 'left';
+      } else {
+        return direction
       }
-      break;
 
-      case 39:
-      if(direction != 'left'){
-        direction = 'right';
+    case 39:
+      if (direction != 'left') {
+        return 'right';
+      } else {
+        return direction
       }
-      break;
 
-      case 38:
-      if(direction != 'down'){
-        direction = 'up';
+    case 38:
+      if (direction != 'down') {
+        return 'up'
+      } else {
+        return direction
       }
-      break;
 
-      case 40:
-      if(direction != 'up'){
-        direction = 'down';
+    case 40:
+      if (direction != 'up') {
+        return 'down'
+      } else {
+        return direction
       }
-      break;
-    }
-  
   }
-})(window, document, drawModule);
+}

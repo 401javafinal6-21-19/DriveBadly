@@ -113,9 +113,20 @@ var drawModule = (function () {
     direction = 'right';
     drawSnake();
     createFood();
+//    gameLoop = setInterval(paint, 80);
+  }
+  var start = function() {
     gameLoop = setInterval(paint, 80);
   }
   return {
-    init: init
+    init: init,
+    checkCollision: checkCollision,
+    createFood: createFood,
+    paint: paint,
+    scoreText: scoreText,
+    drawSnake: drawSnake,
+    bodySnake: bodySnake,
+    apple: apple,
+    start: start
   };
 }());

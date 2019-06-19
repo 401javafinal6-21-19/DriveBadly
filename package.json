@@ -1,0 +1,23 @@
+{
+  "name": "snek",
+  "version": "1.0.0",
+  "description": "snake backup to RC car",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^6.2.0"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401javafinal6-21-19/DriveBadly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401javafinal6-21-19/DriveBadly/issues"
+  },
+  "homepage": "https://github.com/401javafinal6-21-19/DriveBadly#readme"
+}
