@@ -104,6 +104,7 @@ var drawModule = (function () {
     for (var i = 0; i < array.length; i++) {
       if (array[i].x === x && array[i].y === y) {
         init();
+        reset();
         return true;
       }
     }
