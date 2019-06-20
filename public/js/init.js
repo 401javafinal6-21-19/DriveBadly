@@ -12,3 +12,9 @@
     direction = getDirection(keyCode, direction);
   }
 })(window, document, drawModule);
+
+
+let reset = function() {
+  drawModule.init();
+  drawModule.start();
+}
