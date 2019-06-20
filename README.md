@@ -27,5 +27,7 @@ Project includes an HTML [testing page](public/_test_/test.html).
 
 [Firebase Docs](https://firebase.google.com/docs/web/setup)
 
+[Twitch Dev Docs](https://dev.twitch.tv/docs/irc/)
+
 
 
