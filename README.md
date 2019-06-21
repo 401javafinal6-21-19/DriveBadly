@@ -20,7 +20,7 @@ Project includes an HTML [testing page](public/_test_/test.html).
 
 ## Twitch Bot
 ### Twitch Bot Features
-1. **Hosted on Glitch** - Server wakes only needed, sleeps when not
+1. **Hosted on Glitch** - Server wakes only when needed, sleeps when not
 2. **TMI.js** Listens for the below discrete messages in twitch chat
 
 | Command     | Functionality                         | 
