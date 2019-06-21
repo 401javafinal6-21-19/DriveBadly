@@ -1,5 +1,5 @@
 # snek
-Java 401d3 final project backup snake game for [RC car](https://github.com/401javafinal6-21-19/A-Car-You-Can-Only-Drive-Badly) controller. 
+Java 401d3 final project backup [Snake Game](https://drivebadly.firebaseapp.com/) for [RC car](https://github.com/401javafinal6-21-19/A-Car-You-Can-Only-Drive-Badly) controller, hosted on Cloud Firebase.   
 
 This part of our Java final project used HTML5 Canvas and JavaScript to build a snake game. It listens to Cloud Firebase Firestore to make controlling from our [Android App](https://github.com/401javafinal6-21-19/Car-Driver) possible. 
 
