@@ -20,7 +20,7 @@ Project includes an HTML [testing page](public/_test_/test.html).
 
 [Firestore Updates Listeners](https://firebase.google.com/docs/firestore/query-data/listen)
 
-[Snake How-To Reference](https://github.com/Mariacristina88/Snake-game)
+[Snake Reference](https://github.com/Mariacristina88/Snake-game) by MariaCristina88
 
 
 
