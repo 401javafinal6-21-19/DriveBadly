@@ -7,9 +7,9 @@ Project includes an HTML [testing page](public/_test_/test.html).
 
 ## Snake Web App
 ### Snake Game Features
-1. **Donut implementation** - when the snake moves off one side it reappears on the opposing side. 
-2. **Collision** - the game restarts when the snake collides with itself. 
-3. **Hosted on firebase**
+1. **Hosted on firebase**
+2. **Donut implementation** - when the snake moves off one side it reappears on the opposing side. 
+3. **Collision** - the game restarts when the snake collides with itself. 
 
 ### Snake References and Links
 [Snake App](https://drivebadly.web.app/) Hosted on Firestore 
