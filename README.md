@@ -41,7 +41,7 @@ Project includes an HTML [testing page](public/_test_/test.html).
 
 ### Twtich References and Links
 
-[Twitch Bot](https://glitch.com/~drivebadlybot) hosted on Glitch
+[DriveBadlyBot](https://glitch.com/~drivebadlybot) hosted on Glitch
 
 [See Us on Twitch](https://www.twitch.tv/michorjay)
 
