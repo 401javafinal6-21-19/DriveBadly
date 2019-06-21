@@ -35,9 +35,9 @@ Project includes an HTML [testing page](public/_test_/test.html).
 
 ### Twtich References and Links
 
-[Glitch](https://glitch.com/~drivebadlybot) Twitch Chat Bot
+[Twitch Bot](https://glitch.com/~drivebadlybot) hosted on Glitch
 
-[See Us on Twitch](https://www.twitch.tv/michorjay) Stream
+[See Us on Twitch](https://www.twitch.tv/michorjay)
 
 [Twitch Dev Docs](https://dev.twitch.tv/docs/irc/)
 
