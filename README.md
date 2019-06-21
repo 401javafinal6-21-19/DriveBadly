@@ -9,13 +9,19 @@ Project includes an HTML [testing page](public/_test_/test.html).
 ### Snake Game Features
 1. **Donut implementation** - when the snake moves off one side it reappears on the opposing side. 
 2. **Collision** - the game restarts when the snake collides with itself. 
+3. **Hosted on firebase**
 
 ### Snake References and Links
-[Snake Reference](https://github.com/Mariacristina88/Snake-game)
+[Snake App](https://drivebadly.web.app/) Hosted on Firestore 
 
-[Firebase Docs](https://firebase.google.com/docs/web/setup) 
+[Firebase Docs](https://firebase.google.com/docs/web/setup)
+
+[Firebase Hosting](https://firebase.google.com/docs/hosting)
 
 [Firestore Updates Listeners](https://firebase.google.com/docs/firestore/query-data/listen)
+
+[Snake How-To Reference](https://github.com/Mariacristina88/Snake-game)
+
 
 
 ## Twitch Bot
