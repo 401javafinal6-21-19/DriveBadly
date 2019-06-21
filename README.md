@@ -22,12 +22,10 @@ Project includes an HTML [testing page](public/_test_/test.html).
 
 [Snake Reference](https://github.com/Mariacristina88/Snake-game) by MariaCristina88
 
-
-
 ## Twitch Bot
 ### Twitch Bot Features
 1. **Hosted on Glitch** - Server wakes only when needed, sleeps when not
-2. **TMI.js** Listens for the below discrete messages in twitch chat
+2. **DriveBadlyBot** Uses TMI.js to listen for the below discrete messages in twitch chat
 
 | Command     | Functionality                         | 
 |-------------|---------------------------------------|
